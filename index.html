@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrganizAI - Gestão para Restaurantes</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Organiz<span class="ai">AI</span></h1>
+        <p>Controle completo do seu restaurante em um só lugar</p>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Transforme sua gestão gastronômica</h2>
+            <div class="cta-buttons">
+                <button id="signupBtn">Teste Grátis (7 Dias)</button>
+                <button id="loginBtn">Login</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulários de Login/Cadastro -->
+    <div id="authModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="authForms">
+                <!-- Forms serão injetados via JS -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Dashboard (após login) -->
+    <div id="dashboard" class="hidden">
+        <!-- Conteúdo será carregado via JS -->
+    </div>
+
+    <footer>
+        <p>Plano Premium: R$20/mês após período de teste</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
